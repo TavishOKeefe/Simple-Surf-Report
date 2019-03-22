@@ -1,10 +1,10 @@
-# _appTree_
+# _Simple-Surf-Report_
 
 #### By _**Tavish OKeefe**_
 
 ## Description
 
-_Returns Chuck Norris Jokes API data to the DOM using JavaScript._
+_Returns a surf report based on conditions acquired from a single buoy off the coast of Oregon._
 
 ## _Setup/Installation Requirements_
 
@@ -12,6 +12,7 @@ _Returns Chuck Norris Jokes API data to the DOM using JavaScript._
 * _Open in Atom, or text and source code editor of your choosing._
 * _Install Node.js on your desktop, if not already installed._
 * _Run npm install command in terminal, within project directory._
+* _Enable CORS within browser of your choosing._
 * _npm run start in CLI to launch application._
 
 
