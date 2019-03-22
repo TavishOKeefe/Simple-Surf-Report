@@ -1,11 +1,11 @@
 import { Report } from './report.js';
 import $ from 'jquery';
+import './styles.css';
 
 $(document).ready(function() {
   $('#submitReportInfo').click(function(event) {
     event.preventDefault();
     $('.name1').text('');
-    let query = $('#word').val();
 
     let newReport = new Report();
     let promise = newReport.searchAPIforReport();
@@ -54,9 +54,11 @@ $(document).ready(function() {
       
       let currentScore = (result/3);
         
+      filtered.forEach(function(day){
+        $('.name1').append('|' + ' ' + '<strong>' + day + '</strong>' + ' ' + '|');
+      });
         
-        
-        $('.name1').append('<ul><li>' + '<strong>' + currentScore + '</strong>' + '</li><ul>');
+      $('.score').append('<strong>' + currentScore + '</strong>');
     });
   });
 });
