@@ -1,6 +1,5 @@
 import { Report } from './report.js';
 import $ from 'jquery';
-import './styles.css';
 
 $(document).ready(function() {
   $('#submitReportInfo').click(function(event) {
