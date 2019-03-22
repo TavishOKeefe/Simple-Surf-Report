@@ -18,7 +18,7 @@ _Returns a surf report based on conditions acquired from a single buoy off the c
 
 ## Known Bugs
 
-_There are no known bugs at this time._
+_The year in Main.js, line 14, needs to be updated manually when year changes._
 
 ## Support and contact details
 
